@@ -1,6 +1,10 @@
-package oops;
+package com.library.main;
 
 import java.util.Scanner;
+
+import com.library.model.book;
+import com.library.model.user;
+import com.library.service.library;
 
 public class main {
 
