@@ -9,7 +9,6 @@ public class book {
 	private String genere;
 	private boolean setavailability;
 	
-	
 	//Parameterized Constructor
 	public book(int bookId,String title,String author,String genere)
 	{
@@ -19,7 +18,6 @@ public class book {
 		this.genere=genere;
 		this.setavailability=true;
 	}
-	
 	
     //Getters
 	public int getBookId() {
@@ -47,7 +45,6 @@ public class book {
 		this.setavailability = setavailability;
 	}
 
-
 	//Method to display book details
 	public void displayDetails() {
 		System.out.println("Book ID: " + bookId);
@@ -72,10 +69,5 @@ public class book {
         setavailability = true;
         System.out.println("Book returned successfully.");
     }
-
-
-	
-
-
 	
 }
